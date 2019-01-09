@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		890AC7002106752B0003C133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC6FF2106752B0003C133 /* AppDelegate.swift */; };
-		890AC7022106752B0003C133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC7012106752B0003C133 /* ViewController.swift */; };
 		890AC7052106752B0003C133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890AC7032106752B0003C133 /* Main.storyboard */; };
 		890AC7072106752B0003C133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 890AC7062106752B0003C133 /* Assets.xcassets */; };
 		890AC70A2106752B0003C133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 890AC7082106752B0003C133 /* LaunchScreen.storyboard */; };
 		890AC7152106752B0003C133 /* FMNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC7142106752B0003C133 /* FMNewsTests.swift */; };
 		890AC7202106752B0003C133 /* FMNewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC71F2106752B0003C133 /* FMNewsUITests.swift */; };
+		890AC731210678C30003C133 /* TalkSport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC72D210678C30003C133 /* TalkSport.swift */; };
+		890AC732210678C30003C133 /* TalksportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC72E210678C30003C133 /* TalksportCell.swift */; };
+		890AC733210678C30003C133 /* TalkSportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC72F210678C30003C133 /* TalkSportViewController.swift */; };
+		890AC734210678C30003C133 /* TalkSportWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC730210678C30003C133 /* TalkSportWebViewController.swift */; };
+		890AC736210679A10003C133 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC735210679A10003C133 /* News.swift */; };
+		890AC739210679DE0003C133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC737210679DE0003C133 /* ViewController.swift */; };
+		890AC73A210679DE0003C133 /* WebviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC738210679DE0003C133 /* WebviewViewController.swift */; };
+		890AC73C210679F10003C133 /* SegueToAllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC73B210679F10003C133 /* SegueToAllViewController.swift */; };
+		890AC74021067CCB0003C133 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890AC73F21067CCB0003C133 /* ArticleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		890AC6FC2106752B0003C133 /* FMNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		890AC6FF2106752B0003C133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		890AC7012106752B0003C133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		890AC7042106752B0003C133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		890AC7062106752B0003C133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		890AC7092106752B0003C133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		890AC71B2106752B0003C133 /* FMNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		890AC71F2106752B0003C133 /* FMNewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMNewsUITests.swift; sourceTree = "<group>"; };
 		890AC7212106752B0003C133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890AC72D210678C30003C133 /* TalkSport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkSport.swift; sourceTree = "<group>"; };
+		890AC72E210678C30003C133 /* TalksportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalksportCell.swift; sourceTree = "<group>"; };
+		890AC72F210678C30003C133 /* TalkSportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkSportViewController.swift; sourceTree = "<group>"; };
+		890AC730210678C30003C133 /* TalkSportWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TalkSportWebViewController.swift; sourceTree = "<group>"; };
+		890AC735210679A10003C133 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		890AC737210679DE0003C133 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		890AC738210679DE0003C133 /* WebviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebviewViewController.swift; sourceTree = "<group>"; };
+		890AC73B210679F10003C133 /* SegueToAllViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegueToAllViewController.swift; sourceTree = "<group>"; };
+		890AC73F21067CCB0003C133 /* ArticleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +114,17 @@
 			isa = PBXGroup;
 			children = (
 				890AC6FF2106752B0003C133 /* AppDelegate.swift */,
-				890AC7012106752B0003C133 /* ViewController.swift */,
 				890AC7032106752B0003C133 /* Main.storyboard */,
+				890AC73B210679F10003C133 /* SegueToAllViewController.swift */,
+				890AC737210679DE0003C133 /* ViewController.swift */,
+				890AC73F21067CCB0003C133 /* ArticleCell.swift */,
+				890AC738210679DE0003C133 /* WebviewViewController.swift */,
+				890AC735210679A10003C133 /* News.swift */,
 				890AC7062106752B0003C133 /* Assets.xcassets */,
+				890AC730210678C30003C133 /* TalkSportWebViewController.swift */,
+				890AC72F210678C30003C133 /* TalkSportViewController.swift */,
+				890AC72E210678C30003C133 /* TalksportCell.swift */,
+				890AC72D210678C30003C133 /* TalkSport.swift */,
 				890AC7082106752B0003C133 /* LaunchScreen.storyboard */,
 				890AC70B2106752B0003C133 /* Info.plist */,
 			);
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				890AC7022106752B0003C133 /* ViewController.swift in Sources */,
+				890AC73C210679F10003C133 /* SegueToAllViewController.swift in Sources */,
+				890AC736210679A10003C133 /* News.swift in Sources */,
+				890AC732210678C30003C133 /* TalksportCell.swift in Sources */,
+				890AC731210678C30003C133 /* TalkSport.swift in Sources */,
+				890AC734210678C30003C133 /* TalkSportWebViewController.swift in Sources */,
+				890AC739210679DE0003C133 /* ViewController.swift in Sources */,
 				890AC7002106752B0003C133 /* AppDelegate.swift in Sources */,
+				890AC733210678C30003C133 /* TalkSportViewController.swift in Sources */,
+				890AC74021067CCB0003C133 /* ArticleCell.swift in Sources */,
+				890AC73A210679DE0003C133 /* WebviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +537,7 @@
 				890AC7262106752B0003C133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890AC7272106752B0003C133 /* Build configuration list for PBXNativeTarget "FMNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +546,7 @@
 				890AC7292106752B0003C133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		890AC72A2106752B0003C133 /* Build configuration list for PBXNativeTarget "FMNewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +555,7 @@
 				890AC72C2106752B0003C133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
